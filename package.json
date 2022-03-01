@@ -1,20 +1,34 @@
 {
   "name": "koishi-plugin-crypto",
   "description": "Encrypt & Decrypt in Koishi",
-  "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
-  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-crypto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-crypto/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-crypto",
+  "scripts": {
+    "build": "tsc -b"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "crypto",
+    "encrypt",
+    "decrypt",
+    "algorithm"
   ],
   "peerDependencies": {
     "koishi": "^4.3.2"
